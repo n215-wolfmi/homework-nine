@@ -1,1 +1,9 @@
-@import 'structure';
+@import 'mixins.scss';
+@import 'structure.scss';
+@import 'nav-footer/nav.scss';
+@import 'nav-footer/footer.scss';
+@import 'home/home-hero.scss';
+@import 'home/home-content.scss';
+@import 'about/about.scss';
+@import 'locations/locations.scss';
+@import 'contact/contact.scss';

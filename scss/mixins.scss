@@ -1,0 +1,34 @@
+@mixin index-images($bgImage: url(../images/tour-05.jpg)) {
+    max-width: 250px;
+    width: 100%;
+    height: 250px;
+    border: 2px black solid;
+    margin-right: 20px;
+    background-image:  $bgImage;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@mixin loc-images($bgImage: url(../images/canada-tour-03.jpg)) {
+    max-width: 250px;
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    background-image: $bgImage;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@mixin site-button($cornerRadius: 25px, $btnPadding: 10px 20px, $mgnTop: 60px, $mgnBtm: 56px) {
+    background-color: rgb(49, 49, 49);
+    padding: $btnPadding;
+    border-radius: $cornerRadius;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: $mgnTop;
+    margin-bottom: $mgnBtm;
+    text-decoration: none;
+}

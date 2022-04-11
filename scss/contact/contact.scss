@@ -1,0 +1,62 @@
+.contact {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+
+    .top-divs {
+        display: flex;
+
+        .contact-title-info {
+            width: 75%;
+            margin-top: 10%;
+            margin-right: 20px;
+            margin-left: 20px;
+
+            .contact-title {
+                text-align: center;
+                font-size: 50px;
+                font-family: 'Courier New', Courier, monospace;
+                margin-bottom: 20px;
+            }
+
+            .contact-desc {
+                max-width: 800px;
+                width: 75%;
+                margin: auto;
+                text-align: center;
+                line-height: 30px;
+                margin-bottom: 100px;
+            }
+
+            .input-title {
+                text-align: center;
+                font-size: 30px;
+                font-family: 'Courier New', Courier, monospace;
+                margin-bottom: 20px;
+            }
+
+            .contact-input {
+                margin: auto;
+                text-align: center;
+                
+                
+                input {
+                    max-width: 600px;
+                    width: 100%;
+                    height: 40px;
+                    padding-left: 10px;
+                }
+            }
+        }   
+    }
+
+    .contact-hero {
+        width: 40%;
+        min-height: calc(100vh - 100px);
+        background-image:  url(../images/contact-us-image.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 0 0 0 25%;
+    }
+}

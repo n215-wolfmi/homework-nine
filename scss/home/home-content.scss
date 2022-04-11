@@ -1,0 +1,34 @@
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+    .info-box {
+        display: flex;
+
+        .info-image1 {
+            @include index-images($bgImage: url(../images/tour-05.jpg));
+        }
+
+        .info-image2 {
+            @include index-images($bgImage: url(../images/tours-header.jpg));
+        }
+
+        .information {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            width: 600px;
+            height: 200px;
+
+            .info-title {
+                font-weight: bold;
+                font-size: 23px;
+            }
+    
+            .info-desc {
+                line-height: 25px;
+            }
+        }
+        
+    }
+}

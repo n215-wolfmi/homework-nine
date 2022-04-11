@@ -1,0 +1,52 @@
+.locations {
+    padding: 50px 0;
+    position: relative;
+
+    .loc-title {
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+        margin-bottom: 10px;
+    }
+    
+    .locations {
+        max-width: 780px;
+        width: 100%;
+        margin: 0 auto;
+
+        .location {
+            display: flex;
+            margin-bottom: 50px;
+
+            .loc-image1 {
+                @include loc-images();
+            }
+
+            .loc-image2 {
+                @include loc-images($bgImage: url(../images/japan-tour-01.jpg));
+            }
+
+            .loc-image3 {
+                @include loc-images($bgImage: url(../images/nz-tour-01.jpg));
+            }
+
+            .loc-info-title {
+                font-size: 25px;
+                font-family: 'Courier New', Courier, monospace;
+                margin-left: 30px;
+            }
+
+            .loc-desc {
+                line-height: 25px;
+                margin-left: 30px;
+            }
+        }
+    }
+
+    .load-btn {
+        @include site-button();
+        position: absolute;
+        left: 47%;
+        bottom: 1%;
+    }
+}

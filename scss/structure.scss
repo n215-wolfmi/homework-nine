@@ -1,11 +1,26 @@
 * {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   html, body {
+    height: 100%;
+    background-color: white;
+    position: relative;
+   }
+   h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px;
+   }
+
+   
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-html, body {
- height: 100%
-}
-h1, h2, h3, h4, h5, h6, p {
- margin-bottom: 16px
+
+#app {
+    min-height: calc(100vh - 100px); //vh is viewport height so we subtract 100px of the nav and footer heights
+    width: 100%;
 }

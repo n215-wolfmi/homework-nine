@@ -1,0 +1,53 @@
+.about {
+    margin: 75px 0;
+
+    .about-title { 
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+        margin-bottom: 40px;
+    }
+
+    .about-main-desc {
+        max-width: 800px;
+        width: 75%;
+        margin: auto;
+        text-align: center;
+        line-height: 40px;
+        margin-bottom: 40px;
+    }
+
+    .about-hero {
+        height: 300px;
+        width: 75%;
+        margin: auto;
+        background-image: url(../images/tour-07.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 15px;
+        margin-bottom: 50px;
+        border: 2px black solid;
+    }
+
+    .missions {
+        width: 73%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+
+        .mission-column {
+            max-width: 330px;
+
+            .directive-title {
+                font-size: 25px;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: bold;
+            }
+
+            .about-desc {
+                line-height: 30px;
+            }
+        }
+    }
+}
